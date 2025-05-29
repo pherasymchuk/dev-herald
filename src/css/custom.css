@@ -1,0 +1,60 @@
+/**
+ * src/css/custom.css
+ */
+
+:root {
+  /* === Світла тема - Глибокий Фіолетовий === */
+  --ifm-color-primary: #4e0980; /* Глибокий, менш насичений фіолетовий (схожий на "Indigo" або "Dark Orchid" з деякими змінами) */
+  --ifm-color-primary-dark: #5E0BAF;
+  --ifm-color-primary-darker: #560A9D;
+  --ifm-color-primary-darkest: #460881;
+  --ifm-color-primary-light: #761ED1;
+  --ifm-color-primary-lighter: #802CF0;
+  --ifm-color-primary-lightest: #934BFF; /* Трохи яскравіше для акцентів, але все ще в рамках */
+
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #1c1e21;
+  --ifm-link-color: var(--ifm-color-primary);
+
+  --ifm-code-font-size: 75%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+
+  /*--ifm-h1-font-size: 1.5rem;  !* Було бл. 2.5rem *!*/
+  /*--ifm-h2-font-size: 1.5rem; !* Було бл. 2rem *!*/
+  /*--ifm-h3-font-size: 1.5rem;  !* Було бл. 1.75rem *!*/
+  /*--ifm-h4-font-size: 1.25rem; !* Було бл. 1.5rem *!*/
+  /*--ifm-h5-font-size: 1.1rem;  !* Було бл. 1.25rem *!*/
+  /*--ifm-h6-font-size: 1rem;*/
+}
+
+[data-theme='dark'] {
+  /* === Темна тема - Приглушений Фіолетовий === */
+  --ifm-color-primary: #9b75e7; /* MediumPurple - приглушений, пастельний фіолетовий, добре виглядає на темному */
+  --ifm-color-primary-dark: #825FCE;
+  --ifm-color-primary-darker: #7A57C5;
+  --ifm-color-primary-darkest: #6548A6;
+  --ifm-color-primary-light: #A481E8;
+  --ifm-color-primary-lighter: #B592F5;
+  --ifm-color-primary-lightest: #CBAAFF;
+
+  --ifm-background-color: #18191a; /* Стандартний темний фон Docusaurus, можна зробити темнішим, наприклад #121212 */
+  --ifm-font-color-base: #f5f6f7; /* Стандартний світлий текст Docusaurus */
+  --ifm-link-color: var(--ifm-color-primary);
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* Додаткові стилі для кращого вигляду (опціонально) */
+.hero--primary {
+  --ifm-hero-text-color: #FFFFFF; /* Яскравий білий для контрасту на фіолетовому фоні */
+}
+
+[data-theme='dark'] .hero--primary {
+  /* На темній темі, якщо фон hero - це --ifm-color-primary (який вже світліший),
+   *     можливо, знадобиться темніший текст, або просто залишити стандартний світлий */
+  --ifm-hero-text-color: #FFFFFF; /* або var(--ifm-font-color-base); */
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
