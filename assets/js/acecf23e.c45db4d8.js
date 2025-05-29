@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkandroid_dev_notes=self.webpackChunkandroid_dev_notes||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/dev-herald/blog","blogTitle":"Blog","authorsListPath":"/dev-herald/blog/authors"}')}}]);
