@@ -1,22 +1,22 @@
 {
   "title": {
-    "message": "Code Herald",
-    "description": "The title in the navbar"
+    "message": "Dev Herald",
+    "description": "Заголовок у навігаційній панелі"
   },
   "logo.alt": {
-    "message": "My Site Logo",
-    "description": "The alt text of navbar logo"
+    "message": "Логотип мого сайту",
+    "description": "Альтернативний текст для логотипа у навігаційній панелі"
   },
   "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+    "message": "Туторіал",
+    "description": "Елемент навігаційної панелі з міткою \"Туторіал\""
   },
   "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
+    "message": "Блог",
+    "description": "Елемент навігаційної панелі з міткою \"Блог\""
   },
   "item.label.GitHub": {
     "message": "GitHub",
-    "description": "Navbar item with label GitHub"
+    "description": "Елемент навігаційної панелі з міткою \"GitHub\""
   }
 }

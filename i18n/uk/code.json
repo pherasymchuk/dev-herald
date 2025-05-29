@@ -1,10 +1,10 @@
 {
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} хв. читання|{readingTime} хв. читання|{readingTime} хв. читання",
+    "message": "{readingTime} хвилина читання|{readingTime} хвилини читання|{readingTime} хвилин читання",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.ErrorPageContent.title": {
-    "message": "На сторінці стався збій.",
+    "message": "На сторінці сталася помилка.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
@@ -20,27 +20,27 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Навігація по сторінці списку блогів",
+    "message": "Навігація по сторінках списку блогу",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Наступні записи",
+    "message": "Новіші записи",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Попередні записи",
+    "message": "Старіші записи",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Навігація по сторінці посту блогу",
+    "message": "Навігація по сторінці допису блогу",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Наступний пост",
+    "message": "Новіший допис",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Попередній пост",
+    "message": "Старіший допис",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
@@ -48,7 +48,7 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "Системний режим",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -60,11 +60,11 @@
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Перемикання між темним та світлим режимом (зараз використовується {mode})",
+    "message": "Перемикання між темним та світлим режимом (поточний режим: {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Навігаційний ланцюжок поточної сторінки",
+    "message": "Навігаційний ланцюжок",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
@@ -72,19 +72,19 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "сторінка документації",
+    "message": "Навігація по сторінках документації",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Попередня сторінка",
+    "message": "Попередня",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Наступна сторінка",
+    "message": "Наступна",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Одна сторінка|{count} сторінки|{count} сторінок",
+    "message": "Один документ|{count} документи|{count} документів",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
@@ -92,18 +92,19 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Версія: {versionLabel}"
+    "message": "Версія: {versionLabel}",
+    "description": "The label of the version badge"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Це документація для майбутньої версії {siteTitle} {versionLabel}.",
+    "message": "Це документація для майбутньої версії {siteTitle} ({versionLabel}).",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Це документація {siteTitle} для версії {versionLabel}, яка вже не підтримується.",
+    "message": "Це документація {siteTitle} для версії {versionLabel}, яка більше не підтримується.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Актуальна документація знаходиться на сторінці {latestVersionLink} ({versionLabel}).",
+    "message": "Для актуальної інформації, дивіться документацію версії {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -111,19 +112,19 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Відредагувати цю сторінку",
+    "message": "Редагувати цю сторінку",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Пряме посилання на {heading}",
+    "message": "Пряме посилання на \"{heading}\"",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " {date}",
+    "message": " о {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " від {user}",
+    "message": " користувачем {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
@@ -143,27 +144,27 @@
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "обережно",
+    "message": "Обережно",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "небезпека",
+    "message": "Небезпека",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "інформація",
+    "message": "Інформація",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "примітка",
+    "message": "Примітка",
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "порада",
+    "message": "Порада",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "Попередження",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -171,19 +172,19 @@
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Навігація за останніми постами у блозі",
+    "message": "Навігація по останніх дописах блогу",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "Розгорнути категорію бічної панелі '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "Згорнути категорію бічної панелі '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Головна навігація",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
@@ -191,11 +192,11 @@
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "На жаль, ми не змогли знайти сторінку, яку ви запитували.",
+    "message": "На жаль, ми не змогли знайти сторінку, яку ви шукали.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Будь ласка, зверніться до власника сайту, з якого ви перейшли на це посилання, щоб повідомити, що посилання не працює.",
+    "message": "Будь ласка, зв'яжіться з власником сайту, з якого ви перейшли за цим посиланням, щоб повідомити, що воно не працює.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -207,7 +208,7 @@
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Докладніше про {title}",
+    "message": "Докладніше про \"{title}\"",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.CodeBlock.copy": {
@@ -223,55 +224,55 @@
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Перемикання обведення слів",
+    "message": "Перемкнути перенесення слів",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Головна сторінка",
+    "message": "Головна",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Згорнути сайдбар",
+    "message": "Згорнути бічну панель",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Згорнути сайдбар",
+    "message": "Згорнути бічну панель",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Бічна панель документації",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "Закрити панель навігації",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Перейти до головного меню",
+    "message": "← Повернутися до головного меню",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "Перемкнути панель навігації",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "Розгорнути спадне меню",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "Згорнути спадне меню",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Розгорнути сайдбар",
+    "message": "Розгорнути бічну панель",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Розгорнути сайдбар",
+    "message": "Розгорнути бічну панель",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} запис|{count} записи|{count} записів",
+    "message": "{count} допис|{count} дописи|{count} дописів",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
@@ -283,31 +284,31 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "Автори",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View All Authors",
+    "message": "Переглянути всіх авторів",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "Цей автор ще не написав жодного допису.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "Сторінка не в списку",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "Ця сторінка не відображається у списку. Пошукові системи не будуть її індексувати, і доступ до неї матимуть лише користувачі з прямим посиланням.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Чернетка сторінки",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Ця сторінка є чернеткою. Вона буде видима лише в режимі розробки та виключена з фінальної збірки.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {

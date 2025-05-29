@@ -87,7 +87,7 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'Code Herald',
+            title: 'Dev Herald',
             logo: {
                 alt: 'My Site Logo',
                 src: 'img/logo.svg',
